@@ -11,4 +11,5 @@ const fixSidebar = () => {
     console.log("sidebar arrumada com sucesso");
   }
 };
+
 start();
