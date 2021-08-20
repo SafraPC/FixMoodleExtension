@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name":"moodle-fixer",
+    "version": "1",
+    "description": "Extension fix moodle ifsp platform",
+    "icons": {
+      "512": "/assets/moodlefixicon.png"
+    },
+    "permissions": [
+      "activeTab",
+      "https://moodle.cmp.ifsp.edu.br/*",
+      "storage",
+      "notifications"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://moodle.cmp.ifsp.edu.br/*"],
+        "js": [
+          "/js/index.js"
+        ],
+        "css": [
+        ]
+      }
+    ],
+    "web_accessible_resources": [
+    ],
+    "browser_action": {
+      "default_icon": "/assets/moodlefixicon.png",
+      "default_title": "moodle-fixer"
+    }
+  }
+  

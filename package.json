@@ -1,0 +1,19 @@
+{
+  "name": "fixmoodleextension",
+  "version": "1.0.0",
+  "description": "This project is an extension for google with the object of fix interfaces bugs/errors of moodle's platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafraPC/FixMoodleExtension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SafraPC/FixMoodleExtension/issues"
+  },
+  "homepage": "https://github.com/SafraPC/FixMoodleExtension#readme"
+}
